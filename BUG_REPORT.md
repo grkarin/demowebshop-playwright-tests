@@ -24,6 +24,14 @@ The Country field in the Billing Address form should be pre-populated with **Slo
 ### Actual Result
 The Country field in the Billing Address form displays the default **"Select country"** placeholder. The country selection from the Estimate Shipping section is not carried over to the Checkout page.
 
+### Screenshots
+
+**Shopping Cart — Country "Slovenia" selected in Estimate Shipping:**
+![Shopping cart with Slovenia selected](test-evidence/bug-001/01-shopping-cart-slovenia-selected.png)
+
+**Checkout Billing Address — Country field reset to "Select country":**
+![Checkout with empty country field](test-evidence/bug-001/02-checkout-country-empty.png)
+
 ### Environment
 - **Browser:** Google Chrome (Desktop)
 - **URL:** https://demowebshop.tricentis.com
