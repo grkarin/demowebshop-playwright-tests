@@ -47,3 +47,13 @@ The Country field in the Billing Address form displays the default **"Select cou
 **Severity rationale:** The user can still complete the checkout by re-selecting the country manually. However, the loss of previously entered data creates unnecessary friction and can lead to user frustration or drop-off, particularly on mobile or for international users who have already identified their shipping destination.
 
 **Priority rationale:** Checkout is a critical user flow directly tied to conversion. Any friction at this stage should be addressed in a timely manner, though it does not block the purchase from being completed.
+
+
+## Additional Observations
+
+During exploratory testing, the following additional areas were identified as candidates for improvement:
+
+- **Missing "Add to Cart" button:** Some products display no purchase option without indicating unavailability to the user (e.g. no disabled button or "out of stock" message).
+- **Missing "Add to Wishlist" button:** Product pages for Books, Electronics and Computers categories do not display a wishlist option, unlike other categories.
+- **Gift card recipient validation:** The recipient name field accepts any input including numbers and special characters — alphabetic-only validation is recommended.
+- **Gift card wishlist flow:** Adding a gift card to the wishlist unnecessarily requires recipient name and email before purchase intent is confirmed.
