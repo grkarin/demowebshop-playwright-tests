@@ -30,7 +30,7 @@ The Country field in the Billing Address form displays the default **"Select cou
 ![Shopping cart with Slovenia selected](test-evidence/bug-001/estimated-shipping-calculated.png)
 
 **Checkout Billing Address — Country field reset to "Select country":**
-![Checkout with empty country field](test-evidence/bug-001/checkout_country_and_zip_empty.png)
+![Checkout with empty country field](test-evidence/bug-001/checkout_country-and-zip-empty.png)
 
 ### Environment
 - **Browser:** Google Chrome (Desktop)
