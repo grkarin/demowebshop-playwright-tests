@@ -33,6 +33,15 @@ Two of the suggested flows are automated:
 | Reporting          | Playwright HTML report                   |
 | CI                 | GitHub Actions (GitLab snippet included) |
 
+## Bug report
+
+During exploratory testing of the checkout flow, a defect was found and
+documented in **[`BUG_REPORT.md`](./BUG_REPORT.md)**: the country selected in
+the cart's "Estimate Shipping" section is not carried over to the Checkout
+billing address form. The report includes reproduction steps, expected vs.
+actual behaviour, severity/priority assessment, and supporting screenshots
+stored under [`test-evidence/`](./test-evidence).
+
 ## Prerequisites
 
 - **Node.js 18+** (the CI uses the current LTS).
@@ -115,7 +124,10 @@ export TEST_PASSWORD="your-password"
 │   ├── logger.ts             # scoped, level-based logger
 │   └── credentials.ts        # optional TEST_EMAIL / TEST_PASSWORD access
 ├── playwright.config.ts      # Chrome-only project, baseURL, reporter, trace
-└── .github/workflows/        # CI pipeline
+├── .github/workflows/        # CI pipeline
+├── BUG_REPORT.md             # defect found during exploratory testing
+└── test-evidence/            # screenshots referenced by the bug report
+    └── bug-001/
 ```
 
 ## Design approach
