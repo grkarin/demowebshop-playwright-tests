@@ -14,8 +14,9 @@ When a user selects a country in the "Estimate Shipping" section of the Shopping
 3. Navigate to the Shopping Cart page.
 4. In the **"Estimate Shipping"** section, select **Country: Slovenia**, State: Other (Non US), and enter a Zip/Postal code (e.g. 1231).
 5. Click the **"Estimate shipping"** button.
-6. Click the **"Checkout"** button.
-7. Observe the **Country** field on the Billing Address form (Step 1 of Checkout).
+6. Check the "I agree with the terms of service" checkbox. 
+7. Click the **"Checkout"** button.
+8. Observe the **Country** field on the Billing Address form (Step 1 of Checkout).
 
 ### Expected Result
 The Country field in the Billing Address form should be pre-populated with **Slovenia** (the country selected during shipping estimation), reducing redundant data entry for the user.
