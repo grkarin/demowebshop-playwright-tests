@@ -1,0 +1,18 @@
+{
+  "name": "MobikTechnicalTask",
+  "version": "1.0.0",
+  "description": "Playwright Page Object Model test suite for the Tricentis Demo Web Shop",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
